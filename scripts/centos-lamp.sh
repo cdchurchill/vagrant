@@ -28,3 +28,6 @@ mysql -u root -e "SHOW DATABASES";
 
 
 # Downland Starter Content
+cd /vagrant
+sudo -u vagrant wget -q https://raw.githubusercontent.com/cdchurchill/vagrant/master/files/index.html
+sudo -u vagrant wget -q https://raw.githubusercontent.com/cdchurchill/vagrant/master/files/info.php
